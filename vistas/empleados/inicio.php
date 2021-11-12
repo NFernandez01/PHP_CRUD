@@ -39,7 +39,7 @@ if(!$_SESSION["Ingreso"]){
 				},
 		    api: {
 				create: 'http://localhost/php/api_php_read/agregar.php',
-         		 read: 'http://localhost/php/Read_API/',
+         		 read: 'http://localhost/php/CRUD-PHP/load_index.php',
           		update: 'https://fancygrid.com/ajax/update.php',
          		 destroy: 'https://fancygrid.com/ajax/destroy_action.php'
 		    }
